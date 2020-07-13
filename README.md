@@ -1,4 +1,4 @@
-# angular-TP
+# angular-Project
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-khjk81)
 
