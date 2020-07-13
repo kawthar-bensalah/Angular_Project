@@ -1,0 +1,11 @@
+<!-- 
+  Travail réalisé par : 
+     ABBACI  KHALED      201400008348
+     BENSALAH  KAWTHAR   201500008717     
+ -->
+<div class="clock">
+    <div><img src="https://raw.githubusercontent.com/AbbaciKhaled/Angular-TP---BENSALAH-Kawthar-et-ABBACI-Khaled/master/src/assets/clock9%20(1).jpg"></div>
+    <div class="hand hour-hand" [style.transform]="'rotate(' + (heureDegrees|async) + 'deg)'"></div>
+    <div class="hand minute-hand" [style.transform]="'rotate(' + (minDegrees|async) + 'deg)'"></div>
+    <div class="hand second-hand" [style.transform]="'rotate(' + (secDegrees|async) + 'deg)'"></div>
+  </div>
